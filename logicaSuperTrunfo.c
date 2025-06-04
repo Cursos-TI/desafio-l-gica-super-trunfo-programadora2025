@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+    int main () {
+        printf("Desafio Super Trunfo - Países.\n");
+        printf("Comparação das Cartas\n");
+        printf("\033[1mby Programadora2025\033[0m\n");
+ 
+ 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
@@ -39,5 +44,6 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
-    return 0;
+ 
+        return 0;
 }
