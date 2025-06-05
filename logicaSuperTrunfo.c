@@ -1,30 +1,23 @@
 #include <stdio.h>
-    int main () {
+    int main (){
         printf("Desafio Super Trunfo - Países.\n");
         printf("Comparação das Cartas\n");
         printf("\033[1mby Programadora2025\033[0m\n");
-    
-        float densidade1, PIB1;
-        float densidade2, PIB2;
         
-     printf("digite a densidade:  \n");
-    scanf("%f" &densidade1)
-    scanf("&f" &densidade2)
-    printf ("entre com o PIB:  \n");
-    scanf("%f" &PIB1);
-    scanf("%f" &PIB2);
+        float densidade1, densidade2;
+
+    printf("digite a Densidade do Brasil: \n");
+    scanf("%f", &densidade1);
+    printf("digite a Densidade da Espanha: \n");
+    scanf("%f", &densidade2);
 
     if(densidade1 > densidade2){
-        printf("O Pais 1 venceu");
-        {elese}
-        printf("O Pais 2 venceu")
+        printf("\033[44;33mO BRASIL venceu!\033[0m\n");
+    } else {
+        printf("\033[44;31mA ESPANHA venceu!\033[0m\n");
     }
-    if(PIB1 > PIB2){
-        printf("O Pais 1 venceu");
-        {else}
-        printf(" O Pais 2 Venceu");
-    }
-
+   
  
         return 0;
-}
+    }
+
