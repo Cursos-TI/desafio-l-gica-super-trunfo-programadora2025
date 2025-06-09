@@ -27,7 +27,21 @@
     if(densidade1 == densidade2)
     if(PIB1 == PIB2)
     printf("\033[44;33mDeu EMPATE!\033[0m\n");
+
+    if(densidade1 > densidade2)
+    if(PIB1 < PIB2)
+        printf("\033[44;33mO BRASIL venceu!\033[0m\n");
     
-        return 0;
+        if(densidade1 > densidade2)
+    if(PIB1 < PIB2)
+        printf("\033[44;31mA ESPANHA venceu!\033[0m\n");
+       
+        if(densidade1 < densidade2)
+    if(PIB1 > PIB2)
+        printf("\033[44;31mA BRASIL venceu!\033[0m\n");
+ 
+    if(densidade1 > densidade2)
+   if(PIB1 < PIB2)
+        printf("\033[44;31mA BRASIL venceu!\033[0m\n");
     }
 
